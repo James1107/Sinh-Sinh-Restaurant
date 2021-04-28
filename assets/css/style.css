@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+    font-family: "Amatic SC", sans-serif;
+}
+
+/* Common */
+.row{
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.row::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.col{
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.col-fourth{
+    width: 25%;
+}
+
+.col-half{
+    width: 50%;
+}
+
+.text-center{
+    text-align: center;
+}
+
+/* Begin Header */
+.header{
+    top:0;
+    z-index: 1;
+    width: 100%;
+    opacity: 0.7;
+    height: 60px;
+    overflow: hidden;
+    position: fixed;
+    background-color: #000 ;
+
+}
+
+.nav .sub-nav{
+    text-align: left;
+}
+
+
+.nav li  {
+    display: inline-block;
+}
+
+.nav a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    padding: 22px 20px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+.nav, .sub-nav{
+    list-style-type: none;
+    display: inline-block;
+}
+
+.nav .sub-nav{
+    line-height: 60px;
+    font-size: 17px;
+}
+
+.nav li:hover a{
+    color: #000;
+    background-color:#f1f1f1;
+}
+
+.header .logo-btn{
+    top: 0;
+    right: 50%;
+    display: inline-block;
+    position: absolute;
+    transform: translateX(50%);
+}
+
+.logo-btn img{
+    padding:0 20px;
+    height: 60px;
+    font-weight: 500;
+}
+
+.logo-btn:hover img {
+    color: #000;;
+    background-color:#f1f1f1;
+}
+
+.socials-list, .mobile-menu-btn{
+    display: inline-block;
+    line-height: 60px;
+    position: absolute;
+    padding-right: 10px;
+    top: 0;
+    right: 0;
+}
+
+
+.socials-member{
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.socials-list a, .mobile-menu-btn i{
+    text-decoration: none;
+    font-size: 25px;
+    color: red;
+    padding: 17px 10px;
+}
+
+.socials-list a:hover{
+    color:red;
+    background-color:#f1f1f1;
+}
+
+.header .menu-icon{
+    display: inline;
+}
+
+.mobile-menu-btn i{
+    text-decoration: none;
+    font-size: 25px;
+    color:#fff;
+    padding: 17px 20px;
+}
+
+/* End Header */
+
+.slider{
+    margin-top: 60px;
+    padding-bottom: 64px;
+}
+
+.slider .photo{
+    width: 100%;
+}
+
+/* Begin: Menu */
+
+.content{
+    padding: 64px 0;
+}
+
+.content .section-heading{
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 64px;
+}
+
+.content-menu {
+    display: block;
+}
+
+.content-menu .menu-list{
+    padding: 16px 0;
+    text-align: center;
+}
+
+.content-menu .menu-list-special{
+    text-align: center;
+}
+
+.content-menu .menu-name{
+    font-size: 30px;
+    margin: 16px 0 ;
+    font-weight: bold;
+}
+.content-menu .menu-picture{
+    width: 270px;
+    height: 200px;
+    margin: 16px 0 16px;
+    border-radius: 4px;
+}
+
+.content-menu .menu-picture:hover{
+    opacity: 0.4;
+}
+/* End: Menu */
+
+/* Begin: Menu Food */
+.content-menu .content-menu-general{
+    padding: 64px;
+}
+
+.content-menu .content-menu-food{
+    padding: 32px 64px;
+    font-size: 24px;
+}
+
+.content-menu .menu-new{
+    background-color:#f44336 ;
+    color: #fff;
+    padding: 0 10px;
+    margin: 0 32px;
+}
+
+.content-menu-food .menu-price{
+    float: right;
+}
+
+/* End: Menu Food */
+
+/* Begin: Contact */
+.content .contact-content{
+    display:block;
+    text-align: center;
+    line-height: 1.4;
+    padding-bottom: 32px;
+}
+
+.content .contact-info{
+    display:block;
+    font-size: 35px;
+}
+
+.contact-info i[class*="ti-"],
+.contact-info p {
+    display: inline-block;
+}
+
+.contact-info a{
+    text-decoration: none;
+}
+
+/* End: Contact */
+
+.content-menu .content-menu-main-food{
+    text-align: center;
+    padding: 64px 0 32px 0;
+}
+
+
+.footer{
+}

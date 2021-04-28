@@ -1,0 +1,152 @@
+
+/* 
+    Responsive Web
+    - Media requeries:
+    + PC: >= 1024px
+    + Tablet: >=740px & <1024px
+    + Mobile: <740px
+*/
+/* 
+  Responsive for PC, Tablet, mobile  
+*/
+
+
+/* and (max-width:1365px){ */
+@media (min-width: 1024px) {
+    .content-menu .menu-picture{
+        width: 240px;
+        height: 180px;
+    }
+
+    .content-menu .menu-name {
+        font-size: 25px;
+        margin: 16px 0;
+        font-weight: bold;
+    }
+
+    .header .mobile-menu-btn{
+        display: none;
+    }
+}
+
+
+@media (min-width: 741px) and (max-width:1023px)
+{
+    .header .socials-list{
+        display: none;
+    }
+
+    .nav{
+        display: block;
+    }
+
+    .nav a{
+        padding: 0px 20px;
+    }
+
+    .nav li {
+        display: block;
+    }
+    
+    .nav li a {
+        display: block;
+    }
+
+    .nav > li:first-child{
+        display: inline-block;
+    }
+
+    .content{
+        width: 1024px;
+        max-width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .content-menu .menu-name {
+        font-size: 18px;
+        /* margin: 16px 0; */
+        font-weight: bold;
+    }
+
+    .content-menu .content-menu-food {
+        padding: 32px 16px;
+    }
+
+    .content-menu .menu-picture{
+        width: 180px;
+        height: 150px;
+    }
+
+    .content-menu .content-menu-food {
+        font-size: 15px;
+    }
+
+    .content-menu .content-menu-general{
+        padding: 16px;
+    }
+    
+    
+}
+
+
+@media (max-width: 739px){
+    .header .socials-list{
+        display: none;
+    }
+    .nav{
+        display: block;
+    }
+
+    .nav a{
+        padding: 0px 20px;
+    }
+
+    .nav li {
+        display: block;
+    }
+    
+    .nav li a {
+        display: block;
+    }
+
+    .nav > li:first-child{
+        display: inline-block;
+    }
+
+    .slider{
+        padding-bottom: 8px;
+    }
+
+    .content{
+        display: block;
+        padding: 0 10px;
+    }
+
+    .content .section-heading {
+        font-size: 45px;
+        padding: 32px 64px;
+    }
+
+    .content-menu .content-menu-food {
+        padding: 32px 10px;
+        font-size: 15px;
+    }
+
+    .content-menu .content-menu-general {
+        padding: 32px 10px;
+    }
+
+    .content-menu .member-item{
+        width: 100%;
+    }
+
+    .content-menu .menu-picture {
+        width: 300px;
+        height: 230px;
+    }
+
+    .content .contact-info{
+        font-size: 20px;
+    }
+}
